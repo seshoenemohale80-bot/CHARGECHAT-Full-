@@ -1,0 +1,27 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const ChargeChatApp());
+}
+
+class ChargeChatApp extends StatelessWidget {
+  const ChargeChatApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'CHARGECHAT',
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('CHARGECHAT'),
+        ),
+        body: const Center(
+          child: Text(
+            'Welcome to CHARGECHAT 🔥',
+            style: TextStyle(fontSize: 20),
+          ),
+        ),
+      ),
+    );
+  }
+}
